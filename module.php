@@ -38,7 +38,7 @@ return new class extends AbstractModule implements ModuleCustomInterface, Module
     
     public const CUSTOM_WEBSITE = 'https://github.com/JesseWebDotCom/webtrees-historic-us-events';
     
-    public const CUSTOM_VERSION = '1.0';
+    public const CUSTOM_VERSION = '1.1';
 
     public const CUSTOM_LAST = 'https://github.com/JesseWebDotCom/webtrees-historic-us-events';
 
