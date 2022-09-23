@@ -162,6 +162,7 @@ return new class extends AbstractModule implements ModuleCustomInterface, Module
     public function historicEventsAll(): Collection
     {
         return new Collection([
+            "1 EVEN Global war between the Allies (France, Great Britain, Russia, Italy, Japan, the United States) and the Central Powers (Germany, Austria-Hungary, Turkey and Bulgaria) \n2 TYPE World War I\n2 DATE FROM 28 JUL 1914 TO 11 NOV 1918\n2 NOTE [wikipedia](https://en.wikipedia.org/wiki/World_War_I)",
             "1 EVEN Worldwide economic depression \n2 TYPE Great Depression\n2 DATE FROM AUG 1929 TO 1939\n2 NOTE [wikipedia](https://en.wikipedia.org/wiki/Great_Depression)",
             "1 EVEN War between Axis Powers (Germany, Italy, Japan) and the Allied Powers (Britain, United States, Soviet Union, France) \n2 TYPE World War II\n2 DATE FROM 1 SEP 1939 TO 2 SEP 1945\n2 NOTE [wikipedia](https://en.wikipedia.org/wiki/World_War_II)",
             "1 EVEN Imperial Japanese Navy Air attack the US Pearl Harbor naval base \n2 TYPE Attack on Pearl Harbor\n2 DATE 7 DEC 1941\n2 NOTE [wikipedia](https://en.wikipedia.org/wiki/Attack_on_Pearl_Harbor)",
@@ -179,4 +180,3 @@ return new class extends AbstractModule implements ModuleCustomInterface, Module
     }
     
 };
- 
